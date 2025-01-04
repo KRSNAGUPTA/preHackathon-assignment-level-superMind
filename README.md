@@ -2,6 +2,8 @@
 
 TechMate is a lightweight and interactive social media analytics bot designed to provide quick insights into social media post performance. It integrates Langflow, DataStax Astra DB, and GPT to analyze engagement data and suggest strategies for improving engagement.
 
+[Try CHAT-BOT](https://pre-hackathon-assignment-level-super-mind.vercel.app/)
+
 ## 🎯 Objective  
 
 The goal of this project is to create a social media analytics module capable of:  
