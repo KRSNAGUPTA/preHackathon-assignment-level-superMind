@@ -5,7 +5,6 @@ import {
   CardFooter,
   CardHeader,
 } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { Skeleton } from "@/components/ui/skeleton";
@@ -139,7 +138,7 @@ function App() {
                 <div className="flex flex-col items-center justify-center h-40 text-gray-500">
                   <Activity className="h-12 w-12 mb-4 animate-pulse" />
                   <p className="text-center text-sm md:text-base">
-                    Start analyzing social media trends by sending a message
+                    Start analyzing social media data by sending a message
                   </p>
                 </div>
                 <QuickPrompts onPromptClick={handlePromptClick} />
@@ -214,7 +213,7 @@ function App() {
           Bot can produce errors. Please refresh & try again.
         </CardFooter>
       </Card>
-      <Card className="fixed bottom-1 bg-transparent border-none">
+      <Card className="fixed bottom-0 bg-transparent border-none">
         <CardContent>
           <a
             href="https://github.com/KRSNAGUPTA/preHackathon-assignment-level-superMind"
@@ -222,10 +221,10 @@ function App() {
             rel="noopener noreferrer"
             className="flex items-center gap-2 text-gray-400 hover:text-gray-100 transition-all ease-in-out duration-300"
           >
-            <GithubIcon className="h-5 w-5" />
-            GitHub - TEAM
+            <GithubIcon className="h-5 w-5 text-white" />
+            GitHub - built with ❤️ by Team
             <span className="text-indigo-600 hover:text-indigo-400 font-bold">
-              TechMate
+            TechMate
             </span>
           </a>
         </CardContent>
